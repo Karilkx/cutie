@@ -1,17 +1,18 @@
-body {
-    background-color: black;
-    color: white;
-    font-family: 'Courier New', monospace;
-    text-align: center;
-    margin-top: 20%;
-    font-size: 2rem;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>???</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="mystery-text">Tap anywhere to continue...</h1>
+    </div>
 
-h1 {
-    animation: flicker 1s infinite alternate;
-}
+    <audio id="alarm-sound" src="extremely_loud_alarm.mp3"></audio>
 
-@keyframes flicker {
-    0% { opacity: 1; }
-    100% { opacity: 0.3; }
-}
+    <script src="script.js"></script>
+</body>
+</html>
