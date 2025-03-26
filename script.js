@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.documentElement.requestFullscreen();
         sirenSound.volume = 1.0; // Full volume
         sirenSound.play();
-    }, 8000); // 8 seconds delay before loud sound
+    }, 8000); // 3 seconds delay before loud sound
 
     // Glitch effect
     setTimeout(() => {
