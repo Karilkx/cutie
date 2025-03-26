@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 2rem;
+}
+
+h1 {
+    animation: flicker 1s infinite alternate;
+}
+
+@keyframes flicker {
+    0% { opacity: 1; }
+    100% { opacity: 0.3; }
+}
